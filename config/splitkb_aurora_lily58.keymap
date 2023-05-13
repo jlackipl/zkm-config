@@ -9,12 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 
-/ {
+{
     keymap {
         compatible = "zmk,keymap";
 
         default_layer {
-
           bindings = <
 &kp GRAVE &kp N1 &kp N2 &kp N3   &kp N4   &kp N5                                     &kp N6 &ht_tp N7 MINUS  &kp N8 EQUAL &kp N9  &kp N0   &kp BSLH
 &kp ESC   &kp Q  &kp W  &kp F    &kp P    &kp G                                      &kp J  &kp L            &kp U        &kp Y   &kp SEMI &kp MINUS
